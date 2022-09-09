@@ -55,11 +55,12 @@
     display: grid;
     grid-template: repeat(3,1fr) / repeat(2,1fr);
     gap:1.2rem;
-    background-color: white;
+    background-color: gray;
 }
 .gridbox>div{
     box-shadow: -6px 0 2px rgb(235, 103, 16);
     margin: 0 1.2rem;
+    background-color:white;
 }
 .aside{
     display: grid;
